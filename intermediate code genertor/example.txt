@@ -1,0 +1,101 @@
+INPUT - 
+-------
+int main()
+{
+	int a , b=5 , c , d , e , f = 0  , g , h , i , j , k , l=a+3;
+	int p , q , r , o =a+b+c ;
+
+	a*=b&c^d|e/f-g%h;
+	if(c==d||e<=f&&g!=h)
+	{
+		while(p>=q||g<h)
+		{
+			if(k>l)
+			{
+				g=~h;
+				i=-j+k;
+			}
+			else
+			{
+				if(p==q)
+				{
+					j=k;
+					switch(a@b*c)
+					{
+						case 1:
+						b=c;
+						
+						case 2:
+						{
+							g=h-i;
+							k=l/m;
+							break;		
+						}
+						
+						default :
+						h=q-r;
+					}
+					p=o;
+				}
+				p=q;
+			}
+		}
+	}
+}
+
+
+OUTPUT -
+-------
+ m not declared
+
+  1 : t1=a+3
+  2 : t2=a+b
+  3 : t3=t2+c
+  4 : t4=b&c
+  5 : t5=t4^d
+  6 : t6=e/f
+  7 : t7=g%h
+  8 : t8=t6-t7
+  9 : t9=t5|t8
+ 10 : a=a*t9
+ 11 : if c==d goto 17
+ 12 : goto 13
+ 13 : if e<=f goto 15
+ 14 : goto 50
+ 15 : if g!=h goto 17
+ 16 : goto 50
+ 17 : if p>=q goto 21
+ 18 : goto 19
+ 19 : if g<h goto 21
+ 20 : goto 50
+ 21 : if k>l goto 23
+ 22 : goto 29
+ 23 : t10=~h
+ 24 : g=t10
+ 25 : t11=-j
+ 26 : t12=t11+k
+ 27 : i=t12
+ 28 : goto 17
+ 29 : if p==q goto 31
+ 30 : goto 48
+ 31 : j=k
+ 32 : t13=a@b
+ 33 : t14=t13*c
+ 34 : goto 44
+ 35 : b=c
+ 36 : t15=h-i
+ 37 : g=t15
+ 38 : t16=l/m
+ 39 : k=t16
+ 40 : goto 47
+ 41 : t17=q-r
+ 42 : h=t17
+ 43 : goto 47
+ 44 : if t14==1 goto 35
+ 45 : if t14==2 goto 36
+ 46 : goto 41
+ 47 : p=o
+ 48 : p=q
+ 49 : goto 17
+
+

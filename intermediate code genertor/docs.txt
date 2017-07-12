@@ -1,0 +1,47 @@
+Grammar and symentic action of lang H is based on the standards given in the textbook. 
+
+>>>>>Datatype - 
+1)unsigned int
+2)integers                     
+3)bool
+
+
+>>>>>Operators
+(a)Assignment operators  -:   "=" , "+=" , "-=" , "*=" , "/="
+(b)Binary operators      -:   '+' ,  '-' ,  '*' ,  '/' ,  '@'   ('@' is exponent operator)  , '-' (Unary Minus)
+(c)Bitwise operators     -:   '|' ,  '&' ,  '^'  , '~'
+(d)Logical operators     -:   "||" , "&&" , "!"
+(e)Relational operators  -:   "==" , "!=" , "<" , "<=" , ">" , ">="
+
+
+>>>>>>Control Structures
+ 
+(a)if
+(b)if-else
+(c)switch case
+(d)while
+
+
+>>>>>input specifications - 
+
+
+Increment (++) and decrement(--) operators should not be there.
+
+If more than one defaults will be there in switch case then error message will come and intermediate code will not be generated.
+
+If identifier is used without declaration , error message will be displayed and compilation will be terminated.
+
+Identifier can be declared as in following ways -  
+     int a,b;
+     int c,d=a+5*g; 
+
+return statement should not be there.
+
+
+While loop cannot contain break and continue statements.
+
+>>>>>>Examples
+
+Refer example.txt file
+
+
